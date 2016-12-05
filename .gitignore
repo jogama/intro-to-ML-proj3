@@ -1,0 +1,6 @@
+*.zip
+auto/
+writeup.*
+!writeup.pdf
+!writeup.tex
+questions
