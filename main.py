@@ -153,6 +153,10 @@ print passed,'\n'
 # Run fillMatrix on 'netflix_incomplete.txt' with K=12 and mixture model on
 # 'netflix_complete.txt' and report the root mean squared error between the two
 # matrices using rmse.
+Xc = p3.readData('netflix_complete.txt')
+Xpred = p3.fillMatrix(X,K,Mu,P,Var)
+print 'RMSE = ', p3.rmse(Xpred,Xc)
+
 
 # Write your code here
 
